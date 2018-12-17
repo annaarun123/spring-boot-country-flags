@@ -1,6 +1,6 @@
 # Country Flags service using Spring Boot and Prometheus for metrics
 
-Simple example for exporting metrics to [Prometheus](https://prometheus.io/) from a Spring Boot app.
+Simple app for fetching flags for countries and exporting metrics to [Prometheus](https://prometheus.io/) using Spring Boot.
 
 
 The configuration is contained with the [MonitoringConfig](https://github.com/annaarun123/spring-boot-country-flags/blob/master/src/main/java/com/annaarun/countryflags/MonitoringConfig.java) class:
@@ -12,6 +12,9 @@ Install `Java 8`
 Install and setup `maven`
 
 Make sure `curl` is available or use a rest api tool such as `postman`
+
+Continents, countries and flags are fetched from the JSON at 
+[continents.json](https://github.com/annaarun123/spring-boot-country-flags/blob/master/src/main/resources/continents.json)
 
 ### Optional:
 
