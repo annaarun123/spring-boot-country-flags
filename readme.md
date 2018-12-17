@@ -72,6 +72,12 @@ Country name is added as a label and can be used to query using [promql](https:/
 
 
 ## Example output
+
+Here are some screenshots and also text output of `/metrics` endpoint
+
+![Screenshot 1](metrics_screenshot1.png)
+![Screenshot 2](metrics_screenshot2.png)
+
 ```
 # HELP country_flags_all_countries_requests_total All Countries Total requests.
 # TYPE country_flags_all_countries_requests_total counter
