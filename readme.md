@@ -3,7 +3,7 @@
 Simple app for fetching flags for countries and exporting metrics to [Prometheus](https://prometheus.io/) using Spring Boot.
 
 
-The configuration is contained with the [MonitoringConfig](https://github.com/annaarun123/spring-boot-country-flags/blob/master/src/main/java/com/annaarun/countryflags/MonitoringConfig.java) class:
+Metrics configuration is contained with the [MonitoringConfig](https://github.com/annaarun123/spring-boot-country-flags/blob/master/src/main/java/com/annaarun/countryflags/MonitoringConfig.java) class:
 
 ## Prerequisites
 
